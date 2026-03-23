@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bug Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Collaborative Bug Tracker</h1>
+
+<form id="bugForm">
+<input type="text" id="title" placeholder="Bug Title" required>
+<textarea id="description" placeholder="Bug Description"></textarea>
+
+<select id="priority">
+<option>High</option>
+<option>Medium</option>
+<option>Low</option>
+</select>
+
+<button type="submit">Submit</button>
+</form>
+
+<ul id="bugList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
